@@ -1,0 +1,12 @@
+[30-Sep-2020 16:49:25 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/encep/public_html/application/views/public/daftar.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/encep/public_html/application/views/public/daftar.php on line 4
+[30-Sep-2020 16:49:29 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/encep/public_html/application/views/public/daftar.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/encep/public_html/application/views/public/daftar.php on line 4
+[30-Sep-2020 16:49:30 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/encep/public_html/application/views/public/daftar.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/encep/public_html/application/views/public/daftar.php on line 4
