@@ -52,9 +52,9 @@ function sendMail($email, $pesan, $subjek)
      {
           $config['mailtype'] = 'html';
           $config['protocol'] = 'smtp';
-          $config['smtp_host'] = 'mail.pmbunhasy.ac.id';
-          $config['smtp_user'] = 'bantuan@pmbunhasy.ac.id';
-          $config['smtp_pass'] = 'masukemailpmb123';
+          $config['smtp_host'] = '';
+          $config['smtp_user'] = '';
+          $config['smtp_pass'] = '';
           $config['smtp_port'] = 587;
           $config['newline'] = "\r\n";
 
@@ -62,7 +62,7 @@ function sendMail($email, $pesan, $subjek)
 
           $ci->load->library('email', $config);
 
-          $ci->email->from('bantuan@pmbunhasy.ac.id', 'Tim Sekretariat PMB');
+          $ci->email->from('', 'Tim Sekretariat PMB');
           $ci->email->to($email);
           $ci->email->subject($subjek);
           $ci->email->message($pesan);
